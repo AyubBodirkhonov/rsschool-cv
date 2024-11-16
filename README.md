@@ -1,1 +1,1 @@
-https://ayubbodirkhonov.github.io/rsschool-cv/ayubbodirkhonov
+https://ayubbodirkhonov.github.io/rsschool-cv/
