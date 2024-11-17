@@ -1,12 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ayub Bodirkhonov CV</title>
   </head>
-  <body>
-    <h1>My name is Ayub Bodirkhonov</h1>
+  <body class="page-body">
+    <header>
+      <button class="burger">
+        <span class="burger_line"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#about-me">About me</a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav_item">
+            <a href="#strength">Strength</a>
+          </li>
+          <li class="nav_item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="nav_item">
+            <a href="#education">Education</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="left-side">
+        <figure class="figure--left-side">
+          <img
+            src="./img/IMG_2091.JPG"
+            alt="photo of Ayub Bodirkhonov"
+            width="380"
+            height="507"
+            class="photo"
+          />
+        </figure>
+        <section class="contact" id="contact">
+          <h2 class="section-title">Contact</h2>
+          <ul class="contact_list">
+            <li class="contact_item">
+              Discord:
+              <br />
+              Ayub(@AyubBodirkhonov)
+            </li>
+            <li class="contact_item">
+              Email:
+              <br />
+              <a style="color: #ffff" href="mailto:ayubbodirkhonov98@gmail.com"
+                >ayub.bodirkhonov98@gmail.com</a
+              >
+            </li>
+            <li class="contact_item">
+              Address:
+              <br />
+              <span>Uzbekistan, Namangan</span>
+            </li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education_list">
+            <li class="education_item">
+              2017-2022
+              <br />
+              South Korean University named Chonnam National University(CNU) -
+              <br />
+              Business Administration (Management)
+            </li>
+            <li class="education_item">
+              2023
+              <br />
+              Afsona Entertainment Park -
+              <br />
+              System Administration (Service)
+            </li>
+            <li class="education_item">
+              2024
+              <br />
+              RS School - Front-end/React
+              <br />
+              Developer
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="page-title">
+          <h1 class="main-title">
+            Ayub
+            <br />
+            Bodirkhonov
+          </h1>
+          <p>Front-End developer</p>
+        </section>
+        <figure class="figure--right-side">
+          <img
+            src="./IMG_2091.JPG"
+            alt="photo of Ayub Bodirkhonov"
+            width="380"
+            height="507"
+            class="photo"
+          />
+        </figure>
+        <section class="about-me" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I graduated from Chonnam National University. Although majoring in
+            B.A., I realized I wanted to work as a web developer because it
+            looked like a very interesting and high-promising future career for
+            many years. So, I started my journey in 2021 and till now I have
+            been learning different tools that are required to be a front-end
+            web developer.
+          </p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills_list">
+            <li>Management</li>
+            <li>System Administrating</li>
+            <li>Git, Webpack, Figma</li>
+            <li>HTML5, CSS3/SCSS</li>
+            <li>Javascript/ES6</li>
+            <li>React</li>
+            <li>Material UI</li>
+            <li>English C1</li>
+          </ul>
+        </section>
+        <section class="key-strengths" id="strength">
+          <h2 class="section-title">Key strengths</h2>
+          <ul class="key-strengths_list">
+            <li>Hardworking</li>
+            <li>Responsible</li>
+            <li>Sociable</li>
+            <li>Punctual</li>
+            <li>Quick Learner</li>
+          </ul>
+        </section>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <ul class="projects_list">
+                <li class="projects_item">
+                    <a href="https://omnifoodrest.netlify.app/" target="_blank">
+                       <img src="./img/d.png" alt="Omnifood" width="1722" height="969" class="projects_image">
+                        <h3 class="projects_title">HTML, CSS</h3>
+                    </a>
+                </li>
+                <li class="projects_item">
+                    <a href="https://rolodexmonsters.netlify.app" target="_blank">
+                       <img src="./img/e.png" alt="Omnifood" width="1722" height="969" class="projects_image">
+                        <h3 class="projects_title">HTML5, SCSS, REACT, JavaScript</h3>
+                    </a>
+                </li>
+                <li class="projects_item">
+                    <a href="https://serene-longma-a49a7a.netlify.app/" target="_blank">
+                       <img src="./img/afsona.png" alt="Omnifood" width="1722" height="969" class="projects_image">
+                        <h3 class="projects_title">HTML5, SCSS, REACT, JavaScript, Material UI</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+        <a class="footer_github" href="https://github.com/AyubBodirkhonov" target="_blank">My GitHub</a>
+        <p class="footer_year">2024</p>
+        <a class="footer_rschool" href="https://rs.school/js/" target="_blank" >
+            <img src="./img/rs_school_js.svg" alt="RS school" width="86" height="32">
+        </a>
+    </footer>
   </body>
 </html>
